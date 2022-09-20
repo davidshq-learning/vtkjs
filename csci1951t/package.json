@@ -1,0 +1,17 @@
+{
+  "name": "csci1951t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "vtk.js": "^25.8.2"
+  },
+  "devDependencies": {
+    "kw-web-suite": "^11.1.0"
+  }
+}
