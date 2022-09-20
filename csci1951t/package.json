@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --progress --colors --mode development",
+    "build:release": "webpack --progress --colors --mode production",
+    "start": "webpack-dev-server --content-base ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git cz",
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "UNLICENSED",
